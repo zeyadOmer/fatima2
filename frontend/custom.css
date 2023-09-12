@@ -1,0 +1,81 @@
+body, h1, h2, h3, h4, h5, h6, p, label, .menu-link, .top-search-form input, .sub-menu-container .menu-item > .menu-link, .fbox-content h3{
+    font-family: 'Almarai', sans-serif !important;
+}
+
+@media (min-width: 992px)
+{
+    .header-size-sm .menu-container > .menu-item > .menu-link {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+
+
+#logo a.standard-logo {
+    height: 80px;
+}
+
+#logo a.retina-logo {
+    height: 35px;
+}
+
+
+.menu-link {
+    color: #000;
+    letter-spacing: 0;
+}
+
+a {
+    color: #155a07;!important;
+}
+
+
+.i-xlarge.i-plain {
+    width: 40px !important;
+    height: 10px !important;
+    font-size: 36px;
+    line-height: 15px !important;
+}
+
+.counter {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.counter.counter-large {
+    font-size: 44px;
+}
+
+
+#footer .footer-widgets-wrap {
+    padding: 25px 0;
+}
+
+
+body {
+    color: #2c2c2c;
+}
+
+.fbox-plain .fbox-icon i, .fbox-plain .fbox-icon img {
+    color: #155a07;
+}
+
+.menu-item:hover > .menu-link, .menu-item.current > .menu-link {
+    color: #155a07;
+}
+
+
+.fbox-content p {
+    color: #000;
+}
+
+
+#page-title h1 {
+    color: #155a07;
+}
+
+.dropdown-item {
+    text-align: center;
+}
