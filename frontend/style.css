@@ -16818,6 +16818,10 @@ label.checkbox { padding-left: 20px; }
     flex-wrap: wrap;
     box-shadow: 0 0 27px rgba(0, 0, 0, 0.05);
 }
+.fame-introduce .fame-introduce__photo img{
+width: auto;
+height: 580px;
+}
 .fame-introduce__text-content {
     width: 56.48%;
     height: 575px;
@@ -16825,7 +16829,7 @@ label.checkbox { padding-left: 20px; }
     padding: 20px 80px;
     background: #fff;
 }
-@media (max-width: 500px) {
+@media (max-width: 920px) {
     .containerr {
 
         max-width: 100vw;
@@ -16842,7 +16846,12 @@ label.checkbox { padding-left: 20px; }
     .fame-introduce__text-content {
     width: auto;
     height: auto;
+    padding: 2px 20px;
 }
+.fame-introduce .fame-introduce__photo img{
+    width: auto;
+    height: auto;
+    }
     }
 
 .containerr {
